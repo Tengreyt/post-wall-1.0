@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/layout.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                Post Wall
+            </div>
+
+            <button class="button-arounder open-modal">Добавить пост</button>
+        </div>
+    </header>
+
+   <div class="container card-list"></div>
+   <div class="modal-wrapper">
+        <div class="modal">
+            <div class="modal-head">
+                <h3>Создание поста</h3>
+                <div class="close">✕</div>
+            </div>
+            
+            <form>
+                <!-- username -->
+                <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Name</label>
+                </div>
+
+                <!-- avatar-->
+                <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>avatar</label>
+                </div>
+
+                <!-- description -->
+                <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>description</label>
+                </div>
+
+                <!-- title -->
+                <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>title</label>
+                </div>
+
+                <!-- image -->
+                <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>image</label>
+                </div>
+            </form>
+
+            <button class="button-arounder post-modals" >Добавить пост</button>
+        </div>
+   </div>
+
+    
+  
+   
+    <script type="module" src="/scripts/app.js"></script>
+    <script type="module" src="./scripts/events.js"></script>
+</body>
+</html>

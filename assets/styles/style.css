@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 65%, rgb(11, 60, 70) 100%);
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 30px 0;
+}
+
+header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* card-list */
+.card-list{
+    padding: 30px 0px 10px 0px;
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
